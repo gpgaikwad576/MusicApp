@@ -15,6 +15,8 @@ const playmusic=()=>{
     image.classList.add('anime');
 }
 
+
+
 //pause music
 const pausemusic=()=>{
     isPlaying=false;
@@ -46,6 +48,9 @@ const songs=[
     }
 
 ]
+songsstring=JSON.stringify(songs)
+console.log(songsstring)
+
 const loadSong=(songs)=>{
     title.textContent=songs.title;
     singer.textContent=songs.singer;

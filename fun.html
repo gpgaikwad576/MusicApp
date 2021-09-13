@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="music.css"></link>
+    <title>Your Favorite song</title>
 </head>
 <body>
+    <div>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age" value=25><br><br>
+            <label for="favorite_song">Favorite song:</label><br>
+            <input type="text" id="favorite_song" name="favorite_song" value="dhoom"><br>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <div>
+
+    </div>
     
+    <script>
+        let age=document.getElementById('age')
+        let cr=document.createElement('b')
+        let tn=document.getElementsByTagName('div')
+        let myDate=new Date()
+        if(age>18){
+            cr.innerText('You can access all songs')
+
+            tn[0].appendChild(cr)
+            console.log(myDate)
+        }
+            
+        else
+        {
+            cr.innerText('You can access some songs')
+
+tn[0].appendChild(cr)
+console.log(myDate)
+        }
+        
+    </script>
 </body>
 </html>

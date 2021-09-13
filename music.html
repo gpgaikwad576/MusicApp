@@ -1,51 +1,215 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="music.css"></link>
-    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Music aka Gaana</title>
-  </head>
-  <body>
-    <div class="main-div">
-      <div  class="container music-box"  >
-        <div>
-          <p id="music-title">Sholay</p>
-          <p id="music-singer">Asha Purohit</p>
-        </div>
-        <div>
-          <img class="music-image" src="images/sholay.jpg" alt="song image" >
-        </div>
-  
-        <div class="music-audio">
-          <audio class="music-audio" src="music/sholay.mp3" >
-  
-          </audio>
-          
-        <div class="music-symbols">
-          
-          <i class="fa fa-step-backward" id="backward"aria-hidden="true"></i>
-          
-          <i class="fa fa-play" id="play"  aria-hidden="true"></i>
-          <i class="fa fa-step-forward" id="forward" aria-hidden="true"></i>
-         </div>
-         
-         </div>
-      </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="music.css">
+  </link>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <title>Music aka Gaana</title>
+</head>
+
+<body>
+
+  <ul id="special">
+    <li class="special"><a href="#home">Home</a></li>
+
+    <li class="special"><a href="#contact">Contact</a></li>
+    <li class="special"><a href="#about">About</a></li>
+    <li class="special" style="float: right;"><a href="fun.html">Your Favorite Song</a></li>
+  </ul>
+  <nav id="navbar">
+
+    <ul class="navbar-elm">
+
+      <header class="navbar-header">Songs
+      </header>
+
+      <section id="main-section">
+        <li><a class="nav-link" href="#introduction">Sholay</a></li>
+      </section>
+
+      <section id="main-section">
+        <li><a class="nav-link" href="#what_you_should_already_know">Dhoom</a></li>
+      </section>
+
+      <section id="main-section">
+        <li><a class="nav-link" href="#javascript_and_java">Tarhana</a></li>
+      </section>
+
+
+
+    </ul>
+
+  </nav>
+
+  <div class="container music-box">
+    <div>
+      <p id="music-title">Sholay</p>
+      <p id="music-singer">Asha Purohit</p>
     </div>
-    
+    <div>
+      <img class="music-image" src="images/sholay.jpg" alt="song image">
+    </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="music.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <div class="music-audio">
+      <audio class="music-audio" src="music/sholay.mp3">
+
+      </audio>
+
+      <div class="music-symbols">
+
+        <i class="fa fa-step-backward fa-3x" id="backward"></i>
+
+        <i class="fa fa-play fa-3x" id="play"></i>
+        <i class="fa fa-step-forward fa-3x" id="forward"></i>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <main id="main-doc" style="font-size: 20px;">
+    <section id="introduction" class="main-section">
+
+      <header>Sholay Song</header>
+      <p>In the small village of Ramgarh, former police inspector Thakur Baldev Singh summons a pair of small-time
+        thieves that he had once arrested. Thakur feels that the duo – Veeru and Jai – would be ideal to help him
+        capture Gabbar Singh, a dacoit wanted by the authorities for a ₹50,000[b] reward. Thakur tells them to surrender
+        Gabbar to him alive for an additional ₹20,000 reward.</p>
+
+        <p>
+          The two thieves thwart the dacoits sent by Gabbar to extort the villagers. Soon afterwards, Gabbar and his goons
+        attack Ramgarh during the festival of Holi. In a tough battle, Veeru and Jai are cornered. Though Thakur has a
+        gun within his reach, he does not help them. Veeru and Jai fight back and the bandits flee. However, Veeru and
+        Jai are upset at Thakur's inaction and consider calling off the deal by leaving the village. Thakur explains
+        that Gabbar had killed nearly all of his family members and had both his arms cut off a few years earlier, and
+        that he concealed the dismemberment by always wearing a shawl, which is the sole reason why he could not use the
+        gun in the first place.
+
+        </p>
+        <p>
+        Realizing how much Thakur has suffered so much at the hands of Gabbar and his thugs, Veeru and Jai have a change
+        of a heart by declining the reward money and swearing an oath that they will capture Gabbar alive. While
+        protecting Ramgarh, the jovial Veeru and cynical Jai find themselves growing fond of the villagers. Veeru is
+        attracted to Basanti, a feisty, talkative young woman who makes her living by driving a horse-cart. Jai is drawn
+        to Thakur's widowed daughter-in-law Radha, who subtly returns his affections.</p>
+          <p>
+        However, the skirmishes between Gabbar's gang and the duo intensify when Gabbar murders the local inam's son to
+        coerce the villagers into surrendering Veeru and Jai. When the villagers refused and instead got the duo to kill
+        four of Gabbar's men in revenge for the boy's death, Gabbar angrily retaliates by having his men capture Veeru
+        and Basanti, forcing the latter to dance non-stop or he will have Veeru killed.
+
+        Jai arrives to the rescue by attacking the gang, and the three are able to flee Gabbar's hideout with dacoits in
+        pursuit. Fighting from behind a rock, Jai and Veeru nearly run out of ammunition. Veeru, unaware that Jai was
+        wounded in the gunfight, is forced to leave for more ammunition and also to drop Basanti at a safe place. Jai
+        eventually sacrifices himself by using his last bullet to ignite dynamite sticks on a bridge from close range,
+        killing several of Gabbar's men.</p>
+
+    </section>
+    <code>Source:Wikipedia</code>
+
+    <hr class="hr">
+
+    <section id="what_you_should_already_know" class="main-section">
+
+      <header>Dhoom song</header>
+      <p>sung by Shreya Ghosal</p>
+      <p>Pritam composed the songs for Dhoom while Salim-Sulaiman composed the original score. The title track Dhoom
+        Dhoom was released in a remixed version song by the Thai-American singer Tata Young. The song and its music
+        video featuring Tata Young proved to be a major hit in India during 2004 and 2005. The original song was sung by
+        Sunidhi Chauhan. Other tracks on the soundtrack included "Dilbara", "Dilbar Shikdum", and "Salaame Salaame",
+        sung by singers like KK, Abhijeet Bhattacharya, Shaan and Kunal Ganjawala. The lyrics were penned by Sameer.
+        According to the Indian trade website Box Office India, with around 22,00,000 units sold, this film's soundtrack
+        album was the year's third highest-selling.[18]
+
+        All lyrics are written by Sameer; all music is composed by Pritam.</p>
+      <code>Source:Wikipedia</code>
+    </section>
+
+    <hr class="hr">
+
+    <section id="javascript_and_java" class="main-section">
+
+      <header>Tarhana</header>
+      <p>sung by Muhmmad Rafi</p>
+      <p>Rafi moved to Bombay (now Mumbai), Maharashtra in 1944. He and Hameed Sahab rented a ten-by-ten-feet room in
+        the crowded downtown Bhendi Bazar area. Poet Tanvir Naqvi introduced him to film producers including Abdur
+        Rashid Kardar, Mehboob Khan and actor-director Nazeer.[15] Shyam Sunder was in Bombay and provided the
+        opportunity to Rafi to sing a duet with G. M. Durrani, "Aji dil ho kaabu mein to dildar ki aisi taisi...," for
+        Gaon Ki Gori, which became Rafi's first recorded song in a Hindi film. Other songs followed.
+        </p>
+        <p>
+        Rafi's first song with Naushad was "Hindustan Ke Hum Hain" with Shyam Kumar, Alauddin and others, from A. R.
+        Kardar's Pehle Aap (1944). Around the same time, Rafi recorded another song for the 1945 film Gaon Ki Gori, "Aji
+        Dil Ho Kaaboo Mein". He considered this song to be his first Hindi language song.[14]
+      </p>
+      <p>
+        Rafi appeared in two movies. He appeared on the screen for the songs "Tera Jalwa Jis Ne Dekha" in film Laila
+        Majnu(1945) and "Woh Apni Yaad Dilane Ko" in the Film Jugnu (1947).[14] He sang a number of songs for Naushad as
+        part of the chorus, including "Mere Sapnon Ki Rani, Roohi Roohi" with K. L. Saigal, from the film Shahjahan
+        (1946). Rafi sang "Tera Khilona Toota Balak" from Mehboob Khan's Anmol Ghadi (1946) and a duet with Noor Jehan
+        in the 1947 film Jugnu, "Yahan Badla Wafa Ka". After partition, Rafi decided to stay back in India and had the
+        rest of his family flown to Bombay. Noor Jehan migrated to Pakistan and made a pair with playback singer Ahmed
+        Rushdi.
+      </p>
+      <p>
+        In 1949, Rafi was given solo songs by music directors such as Naushad (Chandni Raat, Dillagi and Dulari), Shyam
+        Sunder (Bazaar) and Husnalal Bhagatram (Meena Bazaar).
+
+        Besides K. L. Saigal, whom he considered his favorite, Rafi was also influenced by G. M. Durrani. In the early
+        phase of his career, he often followed Durrani's style of singing, but later evolved his own, unique style. He
+        sang with Durrani in some of the songs such as "Humko Hanste Dekh Zamana Jalta Hai" and "Khabar Kisi Ko Nahiin,
+        Woh Kidhar Dekhte" (Beqasoor, 1950).
+      </p>
+      <p>
+        In 1948, after the assassination of Mahatma Gandhi, the team of Husanlal Bhagatram-Rajendra Krishan-Rafi had
+        overnight created the song "Suno Suno Ae Duniyawalon, Bapuji Ki Amar Kahani". He was invited by the Indian Prime
+        Minister, Jawaharlal Nehru, to sing at his house. In 1948, Rafi received a silver medal from Jawaharlal Nehru on
+        Indian Independence Day.[16]</p>
+      <code>source:wikipedia</code>
+    </section>
+
+    <hr class="hr">
+  </main>
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="music.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
